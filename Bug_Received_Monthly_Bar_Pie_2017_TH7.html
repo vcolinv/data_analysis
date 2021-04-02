@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bug Received - Monthly - Bar - Pie - 2017 - TH7</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="bac290482f52442ab29430d8edbaa1bc" class="chart-container" style="width:1230px; height:580px;"></div>
+    <script>
+        var chart_bac290482f52442ab29430d8edbaa1bc = echarts.init(
+            document.getElementById('bac290482f52442ab29430d8edbaa1bc'), 'white', {renderer: 'svg'});
+        var option_bac290482f52442ab29430d8edbaa1bc = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "bar",
+            "name": "Monthly Bug Amount",
+            "xAxisIndex": 0,
+            "yAxisIndex": 0,
+            "legendHoverLink": true,
+            "data": [
+                8,
+                5,
+                11,
+                10,
+                10,
+                19,
+                18,
+                22,
+                16,
+                19,
+                22,
+                10
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "markLine": {
+                "silent": false,
+                "Bugecision": 2,
+                "label": {
+                    "show": true,
+                    "position": "top",
+                    "margin": 8
+                },
+                "data": [
+                    {
+                        "name": "min",
+                        "type": "min"
+                    },
+                    {
+                        "name": "MAX",
+                        "type": "max"
+                    },
+                    {
+                        "name": "Average",
+                        "type": "average"
+                    }
+                ]
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "pie",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": 1,
+                    "value": 8
+                },
+                {
+                    "name": 2,
+                    "value": 5
+                },
+                {
+                    "name": 3,
+                    "value": 11
+                },
+                {
+                    "name": 4,
+                    "value": 10
+                },
+                {
+                    "name": 5,
+                    "value": 10
+                },
+                {
+                    "name": 6,
+                    "value": 19
+                },
+                {
+                    "name": 7,
+                    "value": 18
+                },
+                {
+                    "name": 8,
+                    "value": 22
+                },
+                {
+                    "name": 9,
+                    "value": 16
+                },
+                {
+                    "name": 10,
+                    "value": 19
+                },
+                {
+                    "name": 11,
+                    "value": 22
+                },
+                {
+                    "name": 12,
+                    "value": 10
+                }
+            ],
+            "radius": [
+                "10%",
+                "40%"
+            ],
+            "center": [
+                "75%",
+                "50%"
+            ],
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{b}:\nSum: {c}\t/ PP: {d}%"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            },
+            "xAxisIndex": 1,
+            "yAxisIndex": 1
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "Monthly Bug Amount"
+            ],
+            "selected": {
+                "Monthly Bug Amount": true
+            },
+            "show": true,
+            "left": "200px",
+            "top": "40px",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        },
+        {
+            "data": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "selected": {},
+            "show": false,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "type": "category",
+            "name": "Month",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "interval": 0,
+                "fontSize": 11
+            },
+            "axisPointer": {
+                "show": true,
+                "type": "shadow"
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "Bug Amount",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "Bug Received - Monthly - Bar - Pie - 2017 - TH7",
+            "padding": 5,
+            "itemGap": 10
+        },
+        {
+            "text": "Bug Received - Monthly - Bar - Pie - 2017 - TH7",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "grid": [
+        {
+            "show": false,
+            "zlevel": 0,
+            "z": 2,
+            "left": "70px",
+            "top": "100px",
+            "right": "650px",
+            "bottom": "100px",
+            "containLabel": false,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1
+        },
+        {
+            "show": false,
+            "zlevel": 0,
+            "z": 2,
+            "left": "70px",
+            "top": "100px",
+            "right": "70px",
+            "bottom": "100px",
+            "containLabel": false,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1
+        }
+    ]
+};
+        chart_bac290482f52442ab29430d8edbaa1bc.setOption(option_bac290482f52442ab29430d8edbaa1bc);
+    </script>
+</body>
+</html>
